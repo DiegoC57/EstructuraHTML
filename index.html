@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial de Python</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tutorial de Python</h1>
+    </header>
+
+    <nav>
+        <p>Contenido:</p>
+        <ul>
+            <li><a href="#que-es">¿Qué es Python?</a></li>
+            <li><a href="#instalacion">Instalación</a></li>
+            <li><a href="#variables">Variables</a></li>
+            <li><a href="#tipos">Tipos de datos</a></li>
+            <li><a href="#operadores">Operadores</a></li>
+            <li><a href="#condicionales">Condicionales</a></li>
+            <li><a href="#bucles">Bucles</a></li>
+            <li><a href="#listas">Listas</a></li>
+            <li><a href="#funciones">Funciones</a></li>
+            <li><a href="#conclusion">Conclusión</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="que-es">
+            <h2>¿Qué es Python?</h2>
+            <p>
+                Python es un lenguaje de programación fácil de entender, por eso lo estamos
+                usando para aprender a programar. Fue creado por Guido van Rossum y se usa
+                mucho porque su código es corto y se lee casi como si fuera español o inglés
+                normal.
+            </p>
+            <p>
+                Con Python se pueden hacer páginas web, juegos simples, programas para
+                organizar datos, entre otras cosas.
+            </p>
+        </section>
+
+        <section id="instalacion">
+            <h2>Instalación</h2>
+            <p>
+                Para programar en Python primero hay que instalarlo desde la página oficial
+                <a href="https://www.python.org" target="_blank" rel="noopener">python.org</a>.
+                Después de instalarlo, se puede comprobar que funciona escribiendo esto en la
+                terminal:
+            </p>
+            <pre><code>python --version</code></pre>
+            <p>
+                Yo lo estoy usando junto con Visual Studio Code, que es un editor de código
+                que nos recomendó el profesor.
+            </p>
+        </section>
+
+        <section id="variables">
+            <h2>Variables</h2>
+            <p>
+                Una variable sirve para guardar un valor. En Python no hay que decir de qué
+                tipo es la variable, Python lo detecta solo.
+            </p>
+            <pre><code>nombre = "Pedro"
+edad = 19
+print(nombre)
+print(edad)</code></pre>
+        </section>
+
+        <section id="tipos">
+            <h2>Tipos de datos</h2>
+            <p>Estos son los tipos de datos básicos que vimos en clase:</p>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Tipo</th>
+                    <th>Ejemplo</th>
+                </tr>
+                <tr>
+                    <td>int (número entero)</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>float (número decimal)</td>
+                    <td>3.5</td>
+                </tr>
+                <tr>
+                    <td>str (texto)</td>
+                    <td>"Hola"</td>
+                </tr>
+                <tr>
+                    <td>bool (verdadero/falso)</td>
+                    <td>True o False</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="operadores">
+            <h2>Operadores</h2>
+            <p>Los operadores sirven para hacer operaciones matemáticas o comparaciones:</p>
+            <pre><code>+   suma
+-   resta
+*   multiplicación
+/   división
+==  comparar si son iguales
+>   mayor que
+<   menor que</code></pre>
+        </section>
+
+        <section id="condicionales">
+            <h2>Condicionales (if)</h2>
+            <p>
+                Sirven para que el programa tome decisiones. Este ejemplo revisa si una
+                persona es mayor de edad:
+            </p>
+            <pre><code>edad = 19
+
+if edad >= 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")</code></pre>
+        </section>
+
+        <section id="bucles">
+            <h2>Bucles (for y while)</h2>
+            <p>Los bucles se usan para repetir algo varias veces.</p>
+            <pre><code>for i in range(5):
+    print(i)</code></pre>
+            <pre><code>contador = 0
+while contador < 3:
+    print("Hola")
+    contador = contador + 1</code></pre>
+        </section>
+
+        <section id="listas">
+            <h2>Listas</h2>
+            <p>
+                Una lista guarda varios valores juntos. En clase practicamos agregando y
+                mostrando elementos de una lista.
+            </p>
+            <pre><code>frutas = ["manzana", "banana", "uva"]
+print(frutas[0])
+frutas.append("pera")
+print(frutas)</code></pre>
+        </section>
+
+        <section id="funciones">
+            <h2>Funciones</h2>
+            <p>
+                Una función es un bloque de código al que le podemos poner nombre y usar
+                varias veces sin escribirlo de nuevo.
+            </p>
+            <pre><code>def saludar(nombre):
+    print("Hola " + nombre)
+
+saludar("Pedro")</code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tutorial</p>
+    </footer>
+
+</body>
+</html>
